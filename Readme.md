@@ -16,7 +16,7 @@ npm start
 ## API Documentation
 
 ### Get number properties and fun facts
-- **URL**: `/?number=150`
+- **URL**: `/api/classify-number?number=150`
 - **Method**: `GET`
 - **Response**:
 ```json

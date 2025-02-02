@@ -52,7 +52,7 @@ function isArmstrong(num: string): boolean {
 }
 
   
-app.get('/', async(req: Request, res: Response) => {
+app.get('/api/classify-number', async(req: Request, res: Response) => {
     const number = req.query.number
     if(Number.isNaN(Number(number))){
         res.status(400).json({
